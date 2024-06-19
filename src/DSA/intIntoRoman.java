@@ -19,6 +19,6 @@ public class intIntoRoman {
 
     public static void main(String[] args) {
         intIntoRoman obj = new intIntoRoman();
-        String check = obj.integerIntoRoman(400);
+        String check = obj.integerIntoRoman(930);
         System.out.println("The Roman numeral of the given number is " + check);
 }}
