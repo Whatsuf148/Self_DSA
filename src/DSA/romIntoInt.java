@@ -8,6 +8,7 @@ public class romIntoInt {
             case 'I': return 1;
             case 'V': return 5;
             case 'X': return 10;
+            case 'L':return 50;
             case 'C': return 100;
             case 'D': return 500;
             case 'M': return 1000;
@@ -32,7 +33,7 @@ public class romIntoInt {
     }
     public static void main(String [] args ){
         romIntoInt obj = new romIntoInt();
-        int intoInteger = obj.romanIntoInteger("IX");
+        int intoInteger = obj.romanIntoInteger("LVII");
         System.out.println(intoInteger);
     }
 }
