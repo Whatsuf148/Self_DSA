@@ -1,6 +1,8 @@
 package DSA;
 
-    class ProductExceptItSelf {
+import java.util.Arrays;
+
+class ProductExceptItSelf {
     public int[] checkProduct(int[] num){
         int [] res = new int[num.length];
         for(int i=0;i<num.length;i++){
@@ -24,11 +26,6 @@ package DSA;
         int[] result = obj.checkProduct(check);
 
         // Print the result
-        for(int i=0; i<result.length; i++){
-            System.out.print(result[i] + " ");
-        }
-
-
-        }
-    }
+        System.out.println(Arrays.toString(result));
+    }}
 
